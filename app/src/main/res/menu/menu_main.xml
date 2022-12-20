@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.example.assignment2.MainActivity">
+    <item
+            android:id="@+id/random"
+            android:orderInCategory="100"
+            android:title="@string/random"
+            android:visible="false"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/education"
+            android:orderInCategory="100"
+            android:title="@string/education"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/recreational"
+            android:orderInCategory="100"
+            android:title="@string/recreational"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/social"
+            android:orderInCategory="100"
+            android:title="@string/social"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/charity"
+            android:orderInCategory="100"
+            android:title="@string/charity"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/cooking"
+            android:orderInCategory="100"
+            android:title="@string/cooking"
+            app:showAsAction="never" />
+    <item
+            android:id="@+id/music"
+            android:orderInCategory="100"
+            android:title="@string/music"
+            app:showAsAction="never" />
+</menu>
